@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.status {
+
+}
+.status .status-item {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #00000017;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.status .status-item .label {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+.status .status-item .statusItem {
+    display: inline-block;
+}
+
+.text-zone {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid;
+}
+.text-zone .inner {
+    padding: 4px 7px;
+    color: #fff;
+    font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    min-height: 300px;
+}
+.text-zone .text {
+
+}
+.text-zone textarea {
+    border: unset;
+    background: unset;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgb(0 0 0 / 0%);
+    font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    overflow: hidden;
+    caret-color: black;
+}
